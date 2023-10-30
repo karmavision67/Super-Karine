@@ -1,0 +1,179 @@
+﻿{ "name": "Theme SuperK",
+"dataColors": [
+"#499195",
+"#95496b",
+"#496b95",
+"#957349",
+"#a2a2a2",
+"#a6d1d3",
+"#d2a4b9",
+"#a4b9d2",
+"#F18F49",
+"#326633",
+"#F1C716"
+  ],
+  "foreground": "#000000",
+  "background": "#F7F7F7",
+  "maximum": "#D9D9D6",
+  "center": "#808080",
+  "minimum": "#FFC4CE",
+  "good": "#367d47",
+  "neutral": "#D9D9D6",
+  "bad": "#A50D0D",
+  "null": "#FFFFFF",
+  "hyperlink": "#380074",
+  "visitedHyperlink": "#380074",
+  "tableAccent": "#499195",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": [
+          {
+            "transparency": 0,
+            "wordWrap": true
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#4a5968"
+              }
+            },
+            "alignment": "center",
+            "fontSize": 14,
+            "fontFamily": "Arial"
+          }
+        ],
+        "background": [
+          {
+            "show": false,
+            "transparency": 0
+          }
+        ],
+        "legend": [
+          {
+            "show": false,
+            "position": "BottomCenter",
+            "showTitle": false,
+            "titleText": "",
+            "fontSize": 10,
+            "fontFamily": "Arial"
+          }
+        ],
+        "lineStyles": [
+          {
+            "color": {
+              "solid": {
+                "color": "#808080"
+              }
+            },
+            "strokeWidth": 2
+          }
+        ],
+        "wordWrap": [
+          {
+            "show": true
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "showAxisTitle": false
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Applied",
+            "transparency": 0,
+            "foregroundColor": {
+              "solid": {
+                "color": "#628C8C"
+              }
+            },
+            "border": true
+          },
+          {
+            "$id": "Available",
+            "transparency": 0,
+            "foregroundColor": {
+              "solid": {
+                "color": "#628C8C"
+              }
+            },
+            "border": true
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "transparency": 0,
+            "color": {
+              "solid": {
+                "color": "#F7F7F7"
+              }
+            }
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#F3F2F1"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#252423"
+              }
+            },
+            "borderColor": {
+              "solid": {
+                "color": "#E0E0E0"
+              }
+            },
+            "transparency": 0,
+            "titleSize": 12,
+            "headerSize": 10,
+            "fontFamily": "Arial",
+            "border": true
+          }
+        ],
+        "background": [
+          {
+            "transparency": 0,
+            "color": {
+              "solid": {
+                "color": "#F7F7F7"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "icons": {
+        "EmptyRedDot": {
+	"description": "EmptyRedDot",
+        "url": "data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='50%' cy='50%' r='10' stroke='%23A50D0D' stroke-width='4' fill='none'/> </svg>" 
+         },
+        "RedDot": {
+	"description": "RedDot",
+        "url": "data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='50%' cy='50%' r='10' stroke='%23A50D0D' stroke-width='2' fill='%23A50D0D'/> </svg>"
+         },
+         "Bouton": {
+	"description": "Bouton",
+        "url": "data:image/svg+xml;utf8, <svg  xmlns='http://www.w3.org/2000/svg' overflow='hidden' viewBox='0 0 96 96'><g transform='translate(-592 -312)'><path d='M640.006 325C620.676 325 605.006 340.67 605.006 360 605.006 379.33 620.676 395 640.006 395 659.336 395 675.006 379.33 675.006 360 674.984 340.679 659.327 325.022 640.006 325ZM640.006 389C623.99 389 611.006 376.016 611.006 360 611.006 343.984 623.99 331 640.006 331 656.022 331 669.006 343.984 669.006 360 668.988 376.009 656.015 388.982 640.006 389Z'/><path d='M640.006 335C626.199 335 615.006 346.193 615.006 360 615.006 373.807 626.199 385 640.006 385 653.813 385 665.006 373.807 665.006 360 664.991 346.199 653.807 335.015 640.006 335ZM632.506 372C630.021 372 628.006 369.985 628.006 367.5 628.006 365.015 630.021 363 632.506 363 634.991 363 637.006 365.015 637.006 367.5 637.006 369.985 634.991 372 632.506 372ZM632.506 357C630.021 357 628.006 354.985 628.006 352.5 628.006 350.015 630.021 348 632.506 348 634.991 348 637.006 350.015 637.006 352.5 637.006 354.985 634.991 357 632.506 357ZM647.506 372C645.021 372 643.006 369.985 643.006 367.5 643.006 365.015 645.021 363 647.506 363 649.991 363 652.006 365.015 652.006 367.5 652.006 369.985 649.991 372 647.506 372ZM647.506 357C645.021 357 643.006 354.985 643.006 352.5 643.006 350.015 645.021 348 647.506 348 649.991 348 652.006 350.015 652.006 352.5 652.006 354.985 649.991 357 647.506 357Z'/></g></svg>"
+         }
+       }
+}
